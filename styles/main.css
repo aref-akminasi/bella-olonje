@@ -27,7 +27,15 @@ body {
     src: url(../fonts/montserrat-medium.ttf);
 }
 
+@font-face {
+    font-family: poppins-semibold;
+    src: url(../fonts/poppins-semibold.ttf);
+}
 
+@font-face {
+    font-family: roboto-bold;
+    src: url(../fonts/roboto-bold.ttf)
+}
 .header-container {
     display:flex;
     flex-direction: row;
@@ -162,5 +170,125 @@ hr {
 }
 
 .explain {
+    color: #000000;
+    font-size: 4.4rem;
+    font-family: poppins-semibold;
+    display: flex;
+    justify-content: center;
+} 
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 8rem 0;
+}
+
+.section-title {
+    font-family: montserrat-bold;
+    font-size: 2.4rem;
+    color: #FA4A0C;
+}
+
+.section-paragraph {
+    font-family: montserrat-bold;
+    font-size: 4rem;
+    color: #252B42;
+}
+
+.section-info {
+    font-family: montserrat-medium;
+    font-size: 2.4rem;
+    color: #737373;
+}
+
+.download-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    flex-direction: column;
+
+}
+
+.download-section-content {
+    position: absolute;
+}
+.download-section img {
+    
+    z-index: -1;
+    width: 100%;
+   
+
+}
+
+.download-section p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.download-section-title {
+    font-family: montserrat-bold;
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin: 0rem 0 2.5rem 0;
+}
+
+.download-section-paragraph {
+    font-family: montserrat-medium;
+    font-size: 2.4rem;
+    color: #FFFFFF;
+    margin: 0 0 6rem 0;
+}
+
+.download-section-playstore {
+    background-color: #FA4A0C;
+    font-family: montserrat-bold;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    padding: 1.8rem 3.1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 0 0.8rem 0 0;
+}
+
+.download-section-appstore {
+    background-color: transparent;
+    border: 0.1rem solid ;
+    border-color: #FFFFFF;
+        font-family: montserrat-bold;
+        color:#F6F6F6;
+        font-size: 1.6rem;
+        padding: 1.6rem 4.5rem ;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin: 0 0 0 0.8rem;
+}
+
+.download-section-buttons {
+    display:flex;
+    justify-content: center;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0 4rem 0;
+}
+
+.footer-section p {
+   font-family:roboto-bold;
+   font-size: 1.2rem;
+   color: #5C5C5C;
+}
+
+.footer-socialmediaicons img {
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
 }
