@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(../fonts/montserrat-semibold.ttf);
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../fonts/montserrat-bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/poppins-bold.ttf);
+}
+
+@font-face {
+    font-family: montserrat-medium;
+    src: url(../fonts/montserrat-medium.ttf);
+}
+
+
+.header-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 9rem 0rem 9rem;
+    margin: 2.6rem 0rem 2.6rem 0rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline;
+}
+
+.menu-item {
+    display: inline;
+    font-family: montserrat-semibold;
+    font-size: 1.6rem;
+    margin-left: 11.4rem;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    color: #FA4A0C;
+}
+
+.selected {
+    color: #FA4A0C;
+}
+
+
+.food {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main {
+    position: relative;
+}
+
+.main-text {
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.main-text-title {
+    color: #F6F6F6;
+    font-size: 2.4rem;
+    font-family: montserrat-bold;
+    display: flex;
+    justify-content: center;
+    margin: 7.3rem 0 1.7rem 0;
+}
+
+.main-text-paragraph-one {
+    color: #F6F6F6;
+    font-size: 5.8rem;
+    font-family: poppins-bold;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    
+}
+
+.main-text-paragraph-two {
+    color: #F6F6F6;
+    font-size: 5.8rem;
+    font-family: poppins-bold;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1.7rem 0;
+    
+}
+
+.main-text-download {
+    color:#F6F6F6;
+    font-size: 2.4rem;
+    font-family: montserrat-medium;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 5.4rem 0 3rem 0;
+}
+
+.playstore {
+    background-color: #FA4A0C;
+    font-family: montserrat-bold;
+    color:#F6F6F6;
+    font-size: 2.4rem;
+    padding: 1.6rem 5.85rem 1.6rem 5.85rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.appstore {
+    
+    background-color: transparent;
+    border: 0.1rem solid ;
+    border-color: #FFFFFF;
+        font-family: montserrat-bold;
+        color:#F6F6F6;
+        font-size: 2.4rem;
+        padding: 1.6rem 5.85rem 1.6rem 5.85rem;
+        border-radius: 3rem;
+        margin: 0rem 0rem 0rem 3.4rem;
+        cursor: pointer;
+        
+}
+
+.phones-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 12.9rem 0;
+}
+
+hr {
+    width: 88.4rem;
+    color: #E4E4E4;
+    border: 0.2rem solid;
+}
+
+.explain {
+    
+}
