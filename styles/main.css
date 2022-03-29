@@ -435,6 +435,10 @@ hr {
     }
 
     .main-text-paragraph-one {
+        padding: 2rem;
+    }
+
+    .main-buttons {
         padding: 1rem;
     }
 }
