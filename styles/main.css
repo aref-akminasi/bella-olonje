@@ -36,6 +36,10 @@ body {
     font-family: roboto-bold;
     src: url(../fonts/roboto-bold.ttf)
 }
+
+.hamburger-menu {
+    display: none;
+}
 .header-container {
     display:flex;
     flex-direction: row;
@@ -100,8 +104,7 @@ body {
     color: #F6F6F6;
     font-size: 5.8rem;
     font-family: poppins-bold;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 0 0 0 0;
     
 }
@@ -183,6 +186,7 @@ hr {
     align-items: center;
     justify-content: space-evenly;
     margin: 0 0 8rem 0;
+    padding: 0 3rem 0 3rem;
 }
 
 .section-title {
@@ -292,3 +296,142 @@ hr {
     margin: 0 1rem 0 1rem;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 1130px) {
+    
+    html {
+        font-size: 7px;
+    }
+
+    .menu li {
+        margin: 4rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+    html {
+        font-size: 7px;
+    }
+
+    .food {
+        display: none;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 8rem 0;
+        padding: 0 3rem 0 3rem;
+    }
+
+    .phones-container img {
+        width: 100%;
+    }
+
+  
+
+   
+    hr {
+        
+        
+        width: 80%;
+       
+        
+    }
+
+    .section img {
+        width: 100%;
+    }
+
+    .main-text-paragraph-one {
+        text-align: center;
+    }
+    .br {
+        display: none;
+    }
+
+    .appstore {
+    
+        background-color: transparent;
+        border: 0.1rem solid ;
+        border-color: #FA4A0C;
+            font-family: montserrat-bold;
+            color:#FA4A0C;
+            font-size: 2.4rem;
+            padding: 1.6rem 5.85rem 1.6rem 5.85rem;
+            border-radius: 3rem;
+            margin: 0rem 0rem 0rem 3.4rem;
+            cursor: pointer;
+            
+    }
+
+    .download-section img {
+        display: none;
+    }
+
+    .download-section-content {
+        position: static;
+      margin: 12rem 5.4rem ;
+    }
+
+    .download-section-content p {
+        text-align: center;
+    }
+    .download-section {
+        background-color: #252B42;
+    }
+
+    
+
+    .footerlogo {
+        display: none;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem 0 4rem 0;
+    }
+
+    .header-container {
+        padding: 3rem;
+    }
+
+    .main-text-download {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main {
+        background-color: #FAFAFA;
+    }
+
+    .main-text p{
+        color: #252B42;
+    }
+
+    .section div p {
+        text-align: center;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
