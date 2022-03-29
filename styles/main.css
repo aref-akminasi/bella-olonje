@@ -433,5 +433,9 @@ hr {
     .menu {
         display: none;
     }
+
+    .main-text-paragraph-one {
+        padding: 1rem;
+    }
 }
 
